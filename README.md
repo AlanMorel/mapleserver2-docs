@@ -21,15 +21,17 @@ $ yarn install
 Create a `.env` file
 
 ```
+VERSION=0
 NODE_ENV=development
 PORT=8084
 URL=http://maplememe.localhost/docs
 ```
 
-Start the server
+Start the server using `yarn` or `docker`
 
 ```
 yarn start
+docker compose up
 ```
 
 Visit `http://localhost:8084/docs` to see the app running.
