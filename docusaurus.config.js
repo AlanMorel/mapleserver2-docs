@@ -23,7 +23,7 @@ const dotenv = require("dotenv").config();
                     docs: {
                         routeBasePath: "/",
                         sidebarPath: require.resolve("./sidebars.js"),
-                        editUrl: "https://github.com/AlanMorel/mapleserver2-docs/"
+                        editUrl: "https://github.com/AlanMorel/mapleserver2-docs/edit/master/"
                     },
                     theme: {
                         customCss: require.resolve("./src/css/custom.css")
