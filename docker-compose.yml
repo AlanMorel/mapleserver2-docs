@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+    mapleserver2docs:
+        container_name: mapleserver2docs
+        image: mapleserver2docs
+        restart: always
+        build:
+            context: .
+            dockerfile: Dockerfile
+            target: base
+            args:
+                ENV: ${NODE_ENV}
+        environment:
+            DOCKER: "true"
+        expose:
+            - "${PORT}"
+        networks:
+            - docker
+
+networks:
+    docker:
+        external: true
