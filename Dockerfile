@@ -1,6 +1,4 @@
-FROM node:alpine as base
-
-ARG ENV
+FROM node:alpine as builder
 
 WORKDIR /app
 
@@ -12,6 +10,10 @@ COPY . .
 
 RUN yarn build
 
-CMD ["yarn", "serve", "--port", "8084"]
+FROM nginx:alpine as base
 
-FROM base as production
+COPY --from=builder /app/build /usr/share/nginx/html/docs
+
+ARG ENV 
+
+COPY ./nginx/nginx.${ENV}.conf /etc/nginx/nginx.conf
