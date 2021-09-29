@@ -27,11 +27,20 @@ PORT=8084
 URL=http://maplememe.localhost/docs
 ```
 
-Start the server using `yarn` or `docker`
+Start the server using `yarn`
 
 ```sh
 yarn start
-docker compose up
 ```
 
 Visit `http://localhost:8084/docs` to see the app running.
+
+## Docker
+
+You can run the app using docker
+
+```sh
+docker compose up
+```
+
+When you run the app using docker, the port is not exposed to the host machine. This means that you will need to either expose it yourself or use a reverse proxy like NGINX to make it accessible.
