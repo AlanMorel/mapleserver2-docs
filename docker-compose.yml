@@ -1,9 +1,9 @@
 version: "3.9"
 
 services:
-    mapleserver2docs:
-        container_name: mapleserver2docs
-        image: mapleserver2docs
+    mapleserver2_docs:
+        container_name: mapleserver2_docs
+        image: mapleserver2_docs
         restart: always
         build:
             context: .
