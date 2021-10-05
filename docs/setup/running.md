@@ -12,7 +12,7 @@ sidebar_position: 5
 
 1. Click Run -> Start debugging or use the shortcut (F5).
 1. Select the environment as .NET CORE and MapleServer2.
-1. In .vscode/Launch.json, change the `console` option to `externalTerminal` or you might have some errors.
+1. In `.vscode/Launch.json`, change the `console` option to `externalTerminal` or you might have some errors.
 1. Run again and it should start the server with debugger.
 
 ## CLI
