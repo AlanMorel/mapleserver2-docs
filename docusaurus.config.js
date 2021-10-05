@@ -8,7 +8,7 @@ const dotenv = require("dotenv").config();
     module.exports = {
         title: "MapleServer2 Docs",
         tagline: "Welcome to the MapleServer2 Docs",
-        url: process.env.URL,
+        url: process.env.URL ?? "https://mapleme.me",
         baseUrl: "/docs/",
         onBrokenLinks: "throw",
         onBrokenMarkdownLinks: "warn",
