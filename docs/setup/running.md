@@ -4,25 +4,22 @@ sidebar_position: 5
 
 # Running the Emulator
 
-This is how to properly run the application.
+## Visual Studio 2022 Guide
 
-1. Create a folder named `Resources` in the `GameDataParser` and `Maple2Storage` folders if they don't already exist.
-
-2. Navigate to your MapleStory2 client folder and then go to `appdata/Data` and copy `Xml.m2d` and `Xml.m2h` then paste them into `GameDataParser/Resources`.
-
-3. Download a MapleStory2 client if not already downloaded. Note that it needs to have `Orion2.dll` injected to actually connect to the server.
-
-4. Then in your MapleStory2 client folder go to `appdata/Data/Resource` and copy `Exported.m2d` and `Exported.m2h` then paste them into `GameDataParser/Resources`.
-
-## Visual Studio Guide
-
-1. Open the `MapleServer2` solution in Visual Studio.
-2. Right click on the `GameDataParser` project folder and select `Set as Startup Project`. Then run the project without a debugger (Ctrl + F5).
-3. After it is finished set the startup project back to `MapleServer2`.
+1. Click RUN or use the shortcut (F5).
 
 ## Visual Studio Code Guide
 
-1. Open the solution as a folder and then go to `Extensions` and install the C# extension.
-2. Download .NET 6.0 SDK if not already downloaded.
-3. After opening the project run `dotnet restore` to fix dependency issues.
-4. Open a terminal and run: `dotnet run -c Release -p gamedataparser/gamedataparser.csproj`
+1. Click Run -> Start debugging or use the shortcut (F5).
+1. Select the environment as .NET CORE and MapleServer2.
+1. In .vscode/Launch.json, change the `console` option to `externalTerminal` or you might have some errors.
+1. Run again and it should start the server with debugger.
+
+## CLI
+
+1. Navigate to the MapleServer2 folder.
+1. Run
+
+```txt
+dotnet run --project MapleServer2/MapleServer2.csproj
+```
