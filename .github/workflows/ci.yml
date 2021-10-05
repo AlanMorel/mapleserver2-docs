@@ -1,11 +1,11 @@
-name: CI
+name: Deploy latest
 
 on: [push]
 
 jobs:
     deploy:
         if: github.ref == 'refs/heads/master'
-        runs-on: [ubuntu-latest]
+        runs-on: ubuntu-latest
         steps:
             - name: Deploy latest ${{ github.event.repository.name }}
               uses: appleboy/ssh-action@master
