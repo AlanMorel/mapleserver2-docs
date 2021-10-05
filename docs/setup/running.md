@@ -20,6 +20,6 @@ sidebar_position: 5
 1. Navigate to the MapleServer2 folder.
 1. Run
 
-```txt
+```sh
 dotnet run --project MapleServer2/MapleServer2.csproj
 ```

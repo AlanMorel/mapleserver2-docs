@@ -27,7 +27,7 @@ sidebar_position: 3
 1. Open the project as a folder. File -> Open Folder -> Select the **MapleServer2** folder
 1. After opening the project, open terminal (Terminal -> New Terminal) and run
 
-```txt
+```sh
 dotnet run --project GameDataParser/GameDataParser.csproj
 ```
 
@@ -37,6 +37,6 @@ dotnet run --project GameDataParser/GameDataParser.csproj
 1. Navigate to the MapleServer2 folder
 1. Run
 
-```txt
+```sh
 dotnet run --project GameDataParser/GameDataParser.csproj
 ```

@@ -18,6 +18,6 @@ You don't need to have the web server running to be able to play, but any UGC co
 
 1. Open a new terminal and run
 
-```txt
+```sh
 dotnet run --project MapleWebServer/MapleWebServer.csproj
 ```

@@ -21,7 +21,7 @@ sidebar_position: 4
 
 1. Then edit the values in your newly created `.env` file to match your environment. Change `DB_PASSWORD` to the password you used when installing MySQL. There is no need to modify the IP or Port unless you know what you are doing. The default values are:
 
-```txt
+```sh
 # Database Info
 DB_IP=localhost
 DB_PORT=3306
