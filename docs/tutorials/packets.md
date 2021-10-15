@@ -105,7 +105,7 @@ Moving forward to the next bytes, we can see that it looks like another int and 
 F0 FB 5C 91 07 00 00 00 4E 9A F0 60 00 00 00 00 01
 ```
 
-Here we see a bunch of zeros in this case exactly 12. It could be a long and one int/float, three ints/floats and other types, since we don't which values is the correct one, lets leave it as 12 unkowns zeros.
+Here we see a bunch of zeros in this case exactly 12. It could be a long and one int/float, three ints/floats and other types, since we don't which values is the correct one, lets leave it as 12 unknowns zeros.
 
 ```csharp
 69 00 14 23 3A 47 00 80 0B B2 03 [00 00 00 00 00 00 00 00 00 00 00 00]
