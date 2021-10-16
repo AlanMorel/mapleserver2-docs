@@ -52,7 +52,7 @@ You can select the loopback interface if you want to be able to log packets from
 D0 01 00 00 00 00 00 00
 ```
 
-**Unicode string** if formed by 2 bytes determining the size of the string and after that each character as 2 bytes. i.e:
+**Unicode string** is formed by 2 bytes (one short) determining the size of the string and after that each character as 2 bytes (one short). i.e:
 
 ```csharp
 06 00 63 00 72 00 65 00 61 00 74 00 65 00
