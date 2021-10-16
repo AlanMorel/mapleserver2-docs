@@ -12,8 +12,10 @@ RUN yarn build
 
 FROM nginx:alpine as base
 
-COPY --from=builder /app/build /usr/share/nginx/html/docs
+ENV TZ America/New_York
 
-ARG ENV 
+ARG ENV
+
+COPY --from=builder /app/build /usr/share/nginx/html/docs
 
 COPY ./nginx/nginx.${ENV}.conf /etc/nginx/nginx.conf
