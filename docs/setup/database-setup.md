@@ -7,19 +7,19 @@ sidebar_position: 4
 
 1. Download and open the MySQL installer.
 
-1. Select the **Developer Default** option and click next.
+2. Select the **Developer Default** option and click next.
 
-1. You can keep clicking next, download and install what is asking.
+3. You can keep clicking next, download and install what is asking.
 
-1. On **Accounts and Roles** step of `Configuration`, make sure to add an password and remember it, you will need it after. You don't need to add an user.
+4. On **Accounts and Roles** step of `Configuration`, make sure to add an password and remember it, you will need it after. You don't need to add an user.
 
-1. Keep clicking next and finish the setup.
+5. Keep clicking next and finish the setup.
 
 ## Configuring MapleServer2
 
 1. Navigate to the `MapleServer2` solution folder and make a copy of `.env.example` and rename the copy to `.env`.
 
-1. Then edit the values in your newly created `.env` file to match your environment. Change `DB_PASSWORD` to the password you used when installing MySQL. There is no need to modify the IP or Port unless you know what you are doing. The default values are:
+2. Then edit the values in your newly created `.env` file to match your environment. Change `DB_PASSWORD` to the password you used when installing MySQL. There is no need to modify the IP or Port unless you know what you are doing. The default values are:
 
 ```sh
 # Database Info
