@@ -14,9 +14,7 @@ Sniffs are simply a collection of packets where the application (in our case Map
 
 [MapleShark2](https://github.com/kOchirasu/MapleShark2/releases)
 
-Packet definitions:
-[GMS2](/resources/mapleshark2/gms/PacketDefinitions.xml) /
-[KMS2](/resources/mapleshark2/kms/PacketDefinitions.xml)
+Packet definitions: [GMS2](/resources/mapleshark2/gms/PacketDefinitions.xml) / [KMS2](/resources/mapleshark2/kms/PacketDefinitions.xml)
 
 ## Setting up MapleShark2
 
