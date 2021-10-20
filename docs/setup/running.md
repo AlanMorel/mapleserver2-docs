@@ -40,6 +40,17 @@ sidebar_position: 5
                 "cwd": "${workspaceFolder}/MapleServer2",
                 "console": "externalTerminal",
                 "stopAtEntry": false
+            },
+            {
+                "name": "Launch MapleWebServer",
+                "type": "coreclr",
+                "request": "launch",
+                "preLaunchTask": "build",
+                "program": "${workspaceFolder}/MapleWebServer/bin/Debug/net6.0/MapleWebServer.dll",
+                "args": [],
+                "cwd": "${workspaceFolder}/MapleWebServer",
+                "console": "externalTerminal",
+                "stopAtEntry": false
             }
         ]
     }
