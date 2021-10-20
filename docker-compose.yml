@@ -1,4 +1,4 @@
-version: "3.9"
+version: '3.9'
 
 services:
     mapleserver2_docs:
@@ -14,9 +14,9 @@ services:
         volumes:
             - ./logs:/var/log/nginx
         environment:
-            DOCKER: "true"
+            DOCKER: 'true'
         expose:
-            - "${PORT}"
+            - '${PORT}'
         networks:
             - docker
 
