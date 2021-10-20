@@ -10,7 +10,40 @@ sidebar_position: 5
 
 2. Select the environment as .NET CORE and MapleServer2.
 
-3. In `.vscode/Launch.json`, change the `console` option to `externalTerminal` or you might have some errors.
+3. In `.vscode/Launch.json`, change the `console` option to `externalTerminal` or you might have some errors. (Or you can use this preconfigured **launch.json**!)
+
+   ```json
+   {
+       // Use IntelliSense to learn about possible attributes.
+       // Hover to view descriptions of existing attributes.
+       // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+       "version": "0.2.0",
+       "configurations": [
+           {
+               "name": "Launch GameDataParser",
+               "type": "coreclr",
+               "request": "launch",
+               "preLaunchTask": "build",
+               "program": "${workspaceFolder}/GameDataParser/bin/Debug/net6.0/GameDataParser.dll",
+               "args": [],
+               "cwd": "${workspaceFolder}/GameDataParser",
+               "stopAtEntry": false,
+               "console": "externalTerminal"
+           },
+           {
+               "name": "Launch MapleServer2",
+               "type": "coreclr",
+               "request": "launch",
+               "preLaunchTask": "build",
+               "program": "${workspaceFolder}/MapleServer2/bin/Debug/net6.0/MapleServer2.dll",
+               "args": [],
+               "cwd": "${workspaceFolder}/MapleServer2",
+               "console": "externalTerminal",
+               "stopAtEntry": false
+           }
+       ]
+   }
+   ```
 
 4. Run again and it should start the server with debugger.
 
