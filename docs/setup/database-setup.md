@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 ---
+
 # Database Setup
 
 ## Installing MySQL
