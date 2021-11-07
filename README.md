@@ -25,6 +25,7 @@ VERSION=0
 NODE_ENV=development
 PORT=8084
 URL=http://maplememe.localhost/docs
+TZ=America/New_York
 ```
 
 Start the server using `yarn`

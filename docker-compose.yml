@@ -11,6 +11,7 @@ services:
             target: base
             args:
                 ENV: ${NODE_ENV}
+                TZ: ${TZ}
         volumes:
             - ./logs:/var/log/nginx
         environment:
