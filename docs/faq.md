@@ -22,7 +22,18 @@ There are a couple video guides that have been made, but they will not be entire
 
 ## Are there commands or how do I spawn items, etc.?
 
-The commands can be found by typing `/commands` in-game, and you can find map/item/mob ids by checking pinned messages in [#help](https://discord.com/channels/783045053501276170/813676820611334194/871885574716424232).
+The commands can be found by typing `/commands` in-game, and you can find map/item/mob ids by using the /find command. There is also this great explanation on how to find the ids inside the Xml file by Namity.
+
+```txt
+Where to easily locate IDs:
+Items => xml.m2d/string/en/itemname.xml
+Maps => xml.m2d/string/en/mapname.xml
+Mobs and NPCs => xml.m2d/string/en/npcname.xml
+Quests => xml.m2d/string/en/questdescription_[type].xml
+Buffs => xml.m2d/string/en/koradditionaldescription.xml
+```
+
+You can use [Orion 2 Repacker](https://github.com/AngeloTadeucci/Orion2-Repacker) to browse through the .m2d/h files.
 
 ## I'm following the setup but it's not working?
 
