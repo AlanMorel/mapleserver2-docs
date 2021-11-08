@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Frequently-seen Errors
 
-## MapleServer2.Data.Static.\*\*\*MetadataStorage threw an exception
+## System.IO.FileNotFoundException in MapleServer2/Data/Static/
 
 You need to run GameDataParser (and let it finish running), steps are detailed in [resources setup](/docs/setup/resources-setup)
 
