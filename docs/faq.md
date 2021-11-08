@@ -22,7 +22,7 @@ There are a couple video guides that have been made, but they will not be entire
 
 ## Are there commands or how do I spawn items, etc.?
 
-The commands can be found by typing `/commands` in-game, and you can find map/item/mob ids by using the /find command. There is also this great explanation on how to find the ids inside the Xml file by Namity.
+The commands can be found by typing `/commands` in-game, and you can find map/item/mob ids by using the /find command. There is also this great explanation on how to find the ids inside the Xml file by Namity:
 
 ```txt
 Where to easily locate IDs:
