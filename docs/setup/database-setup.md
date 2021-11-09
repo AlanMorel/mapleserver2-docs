@@ -42,8 +42,18 @@ WEB_PORT=3000
 
 ## Optional
 
+### DBeaver
+
 1. Download a compatible database GUI tool. A tested and recommended tool is [DBeaver](https://dbeaver.io/download/). This is so you can visualize the data in the database.
 
 2. Add a connection to the chosen compatible SQL database previously installed, in `DBeaver` this can be done by clicking the far left icon in the toolbar.
+
+3. Add database, username and password then click finish.
+
+### Visual Studio Code
+
+1. Download the Visual Studio Code extension `MySQL` by `cweijan`.
+
+2. Add a new connection to the chosen compatible SQL database previously installed, in `Visual Studio Code` this can be done by clicking the icon called `Database` on the left side, then click the plus icon on the top of the side panel.
 
 3. Add database, username and password then click finish.
