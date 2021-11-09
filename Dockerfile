@@ -12,11 +12,7 @@ RUN yarn build
 
 FROM nginx:alpine as base
 
-ARG TZ
-
 ARG ENV
-
-ENV TZ ${TZ}
 
 COPY --from=builder /app/build /usr/share/nginx/html/docs
 

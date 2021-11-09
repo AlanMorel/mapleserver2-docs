@@ -38,10 +38,10 @@ Visit `http://localhost:8084/docs` to see the app running.
 
 ## Docker
 
-You can run the app using docker
+You can run the app using Docker
 
 ```sh
 docker compose up
 ```
 
-When you run the app using docker, the port is not exposed to the host machine. This means that you will need to either expose it yourself or use a reverse proxy like NGINX to make it accessible.
+When you run the app using Docker, the port is not exposed to the host machine. This means that you will need to either expose it yourself or use a reverse proxy like NGINX to make it accessible.
