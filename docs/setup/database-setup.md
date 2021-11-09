@@ -6,7 +6,9 @@ sidebar_position: 4
 
 ## Installing MySQL
 
-1. Download and open the MySQL installer.
+### MySQL Installer
+
+1. Download and open the MySQL Installer.
 
 2. Select the **Developer Default** option and click next.
 
@@ -15,6 +17,51 @@ sidebar_position: 4
 4. On **Accounts and Roles** step of `Configuration`, make sure to add an password and remember it, you will need it after. You don't need to add an user.
 
 5. Keep clicking next and finish the setup.
+
+### Docker
+
+Alternatively, you can run your MySQL server inside a Docker container.
+
+1. Download and install [Docker](https://www.docker.com/products/docker-desktop).
+
+2. Create a file named `docker-compose.yml` in the root of your folder.
+
+```yml
+version: "3.9"
+
+services:
+    mysql:
+        container_name: mysql
+        image: mysql
+        restart: always
+        build:
+            args:
+                DATABASE_USERNAME: ${DATABASE_USERNAME}
+                DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DATABASE_PASSWORD}
+        volumes:
+            - ./data:/var/lib/mysql
+            - ./logs:/var/log/mysql
+        ports:
+            - ${PORT}:${PORT}
+        expose:
+            - "${PORT}"
+```
+
+3. Create a file named `.env` in the root of your folder.
+
+```sh
+PORT=3306
+
+DATABASE_HOST=mysql
+DATABASE_USERNAME=root
+DATABASE_PASSWORD=
+```
+
+4. Run `docker compose up` to start the container. The Docker images will be fetched and container built when run for the first time.
+
+5. Run `docker ps` to confirm that the container is running.
 
 ## Configuring MapleServer2
 
