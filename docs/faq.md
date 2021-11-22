@@ -35,6 +35,14 @@ Buffs => xml.m2d/string/en/koradditionaldescription.xml
 
 You can use [Orion 2 Repacker](https://github.com/AngeloTadeucci/Orion2-Repacker) to browse through the .m2d/h files.
 
+## The server is running but nothing is happening
+
+The execution of program was paused because the console has something selected or the program crashed.
+
+- Make sure in the console window, nothing is selected. You can check by looking at the title, if it says "Select ..." you need to click once inside or press `ESC` to stop selecting.
+
+- Look inside the editor (VSCode, Visual Studio, etc) to see if you have any exceptions. Check [Frequently Seen Errors](/docs/fse) to see if the error is documentaded, if not ask for help in the discord or create an issue in the github repo!
+
 ## I'm following the setup but it's not working?
 
 First, confirm that you've downloaded/installed all the necessary components for the server and the correct client, [detailed here](/docs/setup/resources-setup). Then check the [common errors](/docs/fse) to see if they resolve the issue. If you still have problems that are not listed in this faq you can head over to #help and ask for help.
