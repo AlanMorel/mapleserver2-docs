@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # Prerequisites
 
-1. Visual Studio or Visual Studio Code. Visual Studio Code is recommended. If you choose Visual Studio instead, make sure you get the community edition and use version 2022.
+1. Visual Studio 2022 or Visual Studio Code. Visual Studio Code is recommended. If you choose Visual Studio instead, make sure you get the community edition and use version 2022. **2019 will not work, only 2022.**
 
     - [Visual Studio Code](https://visualstudio.microsoft.com/)
-    - [Visual Studio](https://visualstudio.microsoft.com/vs/preview/vs2022/)
+    - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022/)
 
 2. .NET 6.0 SDK If you don't know what Arm64, x64, and x86 mean then google it, but you're probably x64.
 
