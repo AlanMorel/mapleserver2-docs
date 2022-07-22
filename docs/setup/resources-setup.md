@@ -10,6 +10,6 @@ sidebar_position: 2
 
 3. Create a folder named `Resources` in the `GameDataParser` and `Maple2Storage` folders.
 
-4. Navigate to your **MapleStory2 CLIENT folder** and then go to `appdata/Data` and copy `Xml.m2d` and `Xml.m2h` then paste them into `GameDataParser/Resources`.
+4. Navigate to your **MapleStory2 CLIENT folder** and then go to `appdata/Data` and copy `Xml.m2d` and `Xml.m2h`, then paste them into `GameDataParser/Resources`.
 
-5. Then in your **MapleStory2 CLIENT folder** go to `appdata/Data/Resource` and copy `Exported.m2d` and `Exported.m2h` then paste them into `GameDataParser/Resources`.
+5. Then in your **MapleStory2 CLIENT folder** go to `appdata/Data/Resource` and copy `Exported.m2d`, `Exported.m2h`, `PrecomputedTerrain.m2d`, `PrecomputedTerrain.m2h`, then paste them into `GameDataParser/Resources`.
