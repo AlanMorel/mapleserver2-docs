@@ -8,9 +8,9 @@ sidebar_position: 3
 
 1. Download .NET 6.0 SDK, if not already downloaded.
 
-2. Open the solution as a folder and then go to `Extensions` and install the [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp).
+2. Open the project as a folder. File -> Open Folder -> Select the **MapleServer2** folder
 
-3. Open the project as a folder. File -> Open Folder -> Select the **MapleServer2** folder
+3. Then go to `Extensions` and install the [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp).
 
 4. After opening the project, open terminal (Terminal -> New Terminal) and run
 
@@ -18,7 +18,7 @@ sidebar_position: 3
 dotnet run --project GameDataParser/GameDataParser.csproj
 ```
 
-### Lua Setup
+### Lua Setup for Visual Studio Code
 
 Install the [Lua formatter extension](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format&ssr=false#overview). Then, inside `settings.json` for your Visual Studio Code `(CTRL + SHIFT + P -> type: 'settings (json)')`, add the following:
 

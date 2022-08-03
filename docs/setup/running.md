@@ -8,7 +8,7 @@ sidebar_position: 5
 
 1. Click Run -> Start debugging or use the shortcut (F5).
 
-2. Select the environment as .NET CORE and MapleServer2.
+2. Select the environment as ".NET 5+ and .NET CORE", after a while a popup at the bottom right will appear, "Required assets to build and debug are missing from 'MapleServer2'. Add them?". Select **Yes** and then select **MapleServer2** at the top.
 
 3. In `.vscode/Launch.json`, change the `console` option to `externalTerminal` or you might have some errors. (Or you can use this preconfigured **launch.json**!)
 
