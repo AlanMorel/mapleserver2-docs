@@ -8,7 +8,7 @@ sidebar_position: 1
    
    - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (RECOMMENDED)
 
-If you are a beginner, you want to use Visual Studio 2022 NOT Visual Studio CODE for the entirety of the setup. Remember, if you decide for Visual Studio 2022, you only need to do the Visual Studio 2022 parts of the tutorial and you can skip the (NOT Visual Studio CODE sections.
+If you are a beginner, you want to use Visual Studio 2022 NOT Visual Studio CODE for the entirety of the setup. Remember, if you decide for Visual Studio 2022, you only need to do the Visual Studio 2022 parts of the tutorial and you can skip the other sections.
 
 **WARNING**: You need to use Visual Studio 2022 Community (higher editions such as professional also work, but are not required).
     **Versions below 2022 will NOT work**

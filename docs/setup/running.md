@@ -7,7 +7,7 @@ sidebar_position: 6
 ## Visual Studio 2022 (Recommended)
 
 1. Click RUN or use the shortcut (F5). This will start your server.
-2. you can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
+2. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
 
 ## Visual Studio Code
 
