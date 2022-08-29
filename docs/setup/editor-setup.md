@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Editor Setup
 
-## Visual Studio 2022 Setup (Recommended to run the server)
+## Visual Studio 2022 (Recommended)
 
 1. Open the `MapleServer2` solution in Visual Studio.
 
@@ -12,7 +12,7 @@ sidebar_position: 3
 
 3. After it is finished set the startup project back to `MapleServer2`.
 
-## Visual Studio Code Setup
+## Visual Studio Code
 
 1. Download .NET 6.0 SDK, if not already downloaded.
 
