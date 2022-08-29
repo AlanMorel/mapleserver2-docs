@@ -4,6 +4,14 @@ sidebar_position: 3
 
 # Editor Setup
 
+## Visual Studio 2022 Setup (Recommended to run the server)
+
+1. Open the `MapleServer2` solution in Visual Studio.
+
+2. Right click on the `GameDataParser` project folder and select `Set as Startup Project`. Then run the project (F5).
+
+3. After it is finished set the startup project back to `MapleServer2`.
+
 ## Visual Studio Code Setup
 
 1. Download .NET 6.0 SDK, if not already downloaded.
@@ -32,13 +40,6 @@ Install the [Lua formatter extension](https://marketplace.visualstudio.com/items
 
 This enables the formatter on Lua files and formats them when you save them. It will load the `.luaFormatConfig` file from the project's root directory.
 
-## Visual Studio 2022 Setup
-
-1. Open the `MapleServer2` solution in Visual Studio.
-
-2. Right click on the `GameDataParser` project folder and select `Set as Startup Project`. Then run the project (F5).
-
-3. After it is finished set the startup project back to `MapleServer2`.
 
 ## CLI Setup
 

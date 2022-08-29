@@ -4,7 +4,12 @@ sidebar_position: 5
 
 # Running the Emulator
 
-## Visual Studio Code Guide
+## Visual Studio 2022 (Recommended)
+
+1. Click RUN or use the shortcut (F5). This will start your server.
+2. you can now proceed with the Connection part of the docs.
+
+## Visual Studio Code
 
 1. Click Run -> Start debugging or use the shortcut (F5).
 
@@ -58,9 +63,7 @@ sidebar_position: 5
 
 4. Run again and it should start the server with debugger.
 
-## Visual Studio 2022 Guide
-
-1. Click RUN or use the shortcut (F5).
+5. You can now proceed with the Connection part of the docs.
 
 ## CLI
 
@@ -71,3 +74,5 @@ sidebar_position: 5
 ```sh
 dotnet run --project MapleServer2/MapleServer2.csproj
 ```
+
+3. You can now proceed with the Connection part of the docs.

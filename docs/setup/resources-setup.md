@@ -6,7 +6,8 @@ sidebar_position: 2
 
 1. Download the MapleStory2 client with Orion2 already injected [here](https://drive.google.com/file/d/1NxSNP7AB-BgPlYavXPAuTi1ay2TR0uwV/view), if not already downloaded.
 
-2. Download the MapleServer2 [github repository](https://github.com/AlanMorel/MapleServer2), it's highly recommended to clone or fork the repository.
+2. Download the MapleServer2 [github repository](https://github.com/AlanMorel/MapleServer2).
+It is highly recommended to clone or fork the repository: If you do so, you can update to the latest Server changes using GitHub Desktop and even contribute your code changes easily.
 
 3. Create a folder named `Resources` in the `GameDataParser` and `Maple2Storage` folders.
 

@@ -4,12 +4,24 @@ sidebar_position: 1
 
 # Prerequisites
 
-1. Visual Studio 2022 or Visual Studio Code. Visual Studio Code is recommended. If you choose Visual Studio instead, make sure you get the community edition and use version 2022. **2019 will not work, only 2022.**
+1. Download Visual Studio 2022 Community Edition
+   
+   - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (RECOMMENDED)
 
-    - [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=vscom_downloads)
-    - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
+If you are a beginner, you want to use Visual Studio NOT Visual Studio CODE for the entirety of the setup.
 
-2. .NET 6.0 SDK If you don't know what Arm64, x64, and x86 mean then google it, but you're probably x64.
+**WARNING**: You need to use Visual Studio 2022 Community (higher editions such as professional also work, but are not required).
+    **Versions below 2022 will NOT work**
+
+In case you prefer a Visual Studio alternative, you can of course also use Rider. The largest difference between Rider and Visual Studio will be, perhaps, different namings for the menu options, but you should be able to follow along the Visual Studio Setup analogously.
+    
+If you know what you are doing, we also have instructions how to setup the server using Visual Studio CODE but it is NOT recommended for beginners.
+You can download it here:
+
+- [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=vscom_downloads)
+    
+
+2. .NET 6.0 SDK for your platform. If you are using Windows 64 bit, download Windows x64
 
     - [Dotnet 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
 
@@ -17,11 +29,11 @@ sidebar_position: 1
 
     - [MySQL](https://dev.mysql.com/downloads/windows/installer/8.0.html)
 
-4. Up-to-date MapleServer2 repository. If you are familiar with Git then it is recommended to clone or fork the repository, otherwise, use the download link and extract the files.
+3. Up-to-date MapleServer2 repository. If you are familiar with Git then it is recommended to clone or fork the repository, otherwise, use the download link and extract the files.
 
     - [Github Repository](https://github.com/AlanMorel/MapleServer2)
     - [ZIP File](https://github.com/AlanMorel/MapleServer2/archive/master.zip)
 
-5. MapleStory2 client with Orion2 already injected.
+4. MapleStory2 client with Orion2 already injected.
 
     - <https://drive.google.com/file/d/1NxSNP7AB-BgPlYavXPAuTi1ay2TR0uwV/view>

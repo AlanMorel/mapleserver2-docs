@@ -12,9 +12,9 @@ sidebar_position: 4
 
 2. Select the **Developer Default** option and click next.
 
-3. You can keep clicking next, download and install what is asking.
+3. You can keep clicking next, download and install what it is asking.
 
-4. On **Accounts and Roles** step of `Configuration`, make sure to add an password and remember it, you will need it after. You don't need to add an user.
+4. On the **Accounts and Roles** step of `Configuration`, make sure to add a password and remember it, you will need it later. You don't need to add an user.
 
 5. Keep clicking next and finish the setup.
 
@@ -65,9 +65,9 @@ DATABASE_PASSWORD=
 
 ## Configuring MapleServer2
 
-1. Navigate to the `MapleServer2` solution folder and make a copy of `.env.example` and rename the copy to `.env`.
+1. Navigate to the `MapleServer2` solution folder, make a copy of `.env.example` and rename the copy to `.env`.
 
-2. Then edit the values in your newly created `.env` file to match your environment. Change `DB_PASSWORD` to the password you used when installing MySQL. There is no need to modify the IP or Port unless you know what you are doing. The default values are:
+2. Then edit the values in your newly created `.env` file to match your environment. That is, change `DB_PASSWORD` to the password you used when installing MySQL. There is no need to modify the IP or Port unless you know what you are doing. The default values are:
 
 ```sh
 # Database Info
@@ -87,17 +87,22 @@ NAME=Paperwood
 WEB_PORT=3000
 ```
 
-## Optional
+## Optional (Recommended)
 
-### DBeaver
+### Database GUI
 
-1. Download a compatible database GUI tool. A tested and recommended tool is [DBeaver](https://dbeaver.io/download/). This is so you can visualize the data in the database.
+Download a compatible database GUI tool. This will help you delete your database (DROP) as server updates might require you to do this.
+Also, you can view or edit the server data in the database. 
 
-2. Add a connection to the chosen compatible SQL database previously installed, in `DBeaver` this can be done by clicking the far left icon in the toolbar.
+A tested and recommended tool is [DBeaver](https://dbeaver.io/download/).
 
-3. Add database, username and password then click finish.
+#### DBeaver
 
-### Visual Studio Code
+1. Add a connection to the chosen compatible SQL database previously installed, in `DBeaver` this can be done by clicking the far left icon in the toolbar.
+
+2. Add database, username and password then click finish.
+
+#### Visual Studio Code
 
 1. Download the Visual Studio Code extension `MySQL` by `cweijan`.
 
