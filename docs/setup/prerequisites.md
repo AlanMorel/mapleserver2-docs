@@ -22,19 +22,19 @@ You can download it here:
 
 In case you prefer a Visual Studio alternative, you can of course also use Rider. The largest difference between Rider and Visual Studio will be, perhaps, different namings for the menu options, but you should be able to follow along the Visual Studio Setup analogously.
     
-1. .NET 6.0 SDK for your platform. If you are using Windows 64 bit, download Windows x64
+2. .NET 6.0 SDK for your platform. If you are using Windows 64 bit, download Windows x64
 
     - [Dotnet 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
 
-2. MySQL. When installing MySQL you can leave all the settings as default, just choose a username/password. More information [here](/docs/setup/database-setup)
+3. MySQL. When installing MySQL you can leave all the settings as default, just choose a username/password. More information [here](/docs/setup/database-setup)
 
     - [MySQL](https://dev.mysql.com/downloads/windows/installer/8.0.html)
 
-3. Up-to-date MapleServer2 repository. If you are familiar with Git then it is recommended to clone or fork the repository, otherwise, use the download link and extract the files.
+4. Up-to-date MapleServer2 repository. If you are familiar with Git then it is recommended to clone or fork the repository, otherwise, use the download link and extract the files.
 
     - [Github Repository](https://github.com/AlanMorel/MapleServer2)
     - [ZIP File](https://github.com/AlanMorel/MapleServer2/archive/master.zip)
 
-4. MapleStory2 client with Orion2 already injected.
+5. MapleStory2 client with Orion2 already injected.
 
     - <https://drive.google.com/file/d/1NxSNP7AB-BgPlYavXPAuTi1ay2TR0uwV/view>
