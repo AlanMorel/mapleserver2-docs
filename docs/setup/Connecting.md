@@ -11,11 +11,11 @@ Alternatively, you can use a launcher that does all the work for you. In the end
 ## Launcher
 1. Download [MS2 Launcher](https://github.com/Clockworkx/MS2-Launcher/releases/download/v1.0/MS2.Launcher.v1.0.1.7z).
 2. Extract the launcher to a folder.
-3. Make a shortcut of MS2Launcher.Exe (rightclick->Send to->Desktop)
+3. Make a shortcut of **MS2Launcher.exe* (Right click -> Send to -> Desktop)
 4. Start the Launcher.
 5. You can configure your IPs using the disk-pen symbol on the bottom-right of the launcher. Change your IP and Port and click on the save icon.
 6. Select whether you want to play Local (using the server on your PC) or Online (the remote server configured in step 5).
-7. Click Start. On first lauunch the Launcher will ask you to select your MapleStory2.exe.
+7. Click Start. On first launch the Launcher will ask you to select your MapleStory2.exe location.
 8. Enjoy.
 
 * Note: You can see the online status of the server in the top-right corner of the corresponding server.
