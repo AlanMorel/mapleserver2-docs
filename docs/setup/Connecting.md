@@ -5,7 +5,7 @@ sidebar_position: 8
 # Connecting to the Server
 
 You can choose between starting the client manually or using a launcher to do the work for you.
-If you do not plan to switch between different servers (local and online), you might choose the manual method, which will guide you in creating a shortcut for the client that connects to the server.
+If you do not plan to switch between different servers (local and online), you could choose the manual method, which will guide you in creating a shortcut for the client that connects to the server.
 Alternatively, you can use a launcher that does all the work for you. In the end, starting the client from a shortcut might be faster than first starting the launcher, but the launcher allows for easy configuration, if needed. Your choice.
 
 ## Launcher
