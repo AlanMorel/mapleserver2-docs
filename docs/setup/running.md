@@ -63,7 +63,7 @@ sidebar_position: 6
 
 4. Run again and it should start the server with debugger.
 
-2. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
+5. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
 
 ## CLI
 
@@ -75,4 +75,4 @@ sidebar_position: 6
 dotnet run --project MapleServer2/MapleServer2.csproj
 ```
 
-2. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
+3. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
