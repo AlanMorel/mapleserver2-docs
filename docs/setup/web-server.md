@@ -6,7 +6,7 @@ sidebar_position: 7
 
 You don't need to have the web server running to be able to play, but any UGC content (Profile pictures, items, cubes) will not work.
 
-## Starting the web server
+## Starting the Web Server
 
 ### Visual Studio 2022 (Recommended)
 
