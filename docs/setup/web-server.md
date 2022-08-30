@@ -16,7 +16,6 @@ You don't need to have the web server running to be able to play, but any UGC co
 
 3. Select `Multiple startup projects:` and select **Start** for `MapleServer2` and `MapleWebServer`
 
-
 ### Visual Studio Code and CLI
 
 1. Open a new terminal and run
