@@ -45,3 +45,9 @@ docker compose up
 ```
 
 When you run the app using Docker, the port is not exposed to the host machine. This means that you will need to either expose it yourself or use a reverse proxy like NGINX to make it accessible.
+
+## Github Actions
+
+If you fork this repository, when you push, it will automatically trigger Github actions.
+
+If you want to disable it, go to your fork's **Settings** > **Actions** > **Actions permissions** > **Disable Actions for this repository**.
