@@ -1,10 +1,15 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Running the Emulator
 
-## Visual Studio Code Guide
+## Visual Studio 2022 (Recommended)
+
+1. Make sure **MapleServer2** is selected in the dropdown box next to **Green play button**. Click **RUN** or use the shortcut (F5). This will start your server.
+2. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
+
+## Visual Studio Code
 
 1. Click Run -> Start debugging or use the shortcut (F5).
 
@@ -56,11 +61,9 @@ sidebar_position: 5
     }
     ```
 
-4. Run again and it should start the server with debugger.
+4. Run again and it should start the server with debugging enabled.
 
-## Visual Studio 2022 Guide
-
-1. Click RUN or use the shortcut (F5).
+5. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
 
 ## CLI
 
@@ -68,6 +71,8 @@ sidebar_position: 5
 
 2. Run
 
-```sh
-dotnet run --project MapleServer2/MapleServer2.csproj
-```
+    ```sh
+    dotnet run --project MapleServer2/MapleServer2.csproj
+    ```
+
+3. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.

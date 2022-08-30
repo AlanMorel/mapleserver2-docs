@@ -4,12 +4,22 @@ sidebar_position: 1
 
 # Prerequisites
 
-1. Visual Studio 2022 or Visual Studio Code. Visual Studio Code is recommended. If you choose Visual Studio instead, make sure you get the community edition and use version 2022. **2019 will not work, only 2022.**
+If you are a beginner, you want to use **Visual Studio 2022** for the entirety of the setup. Remember, if you decide for Visual Studio 2022, you only need to do the Visual Studio 2022 parts of the tutorial and you can skip the other sections.
 
+> **WARNING**: You need to use Visual Studio 2022 Community (higher editions such as professional also work, but are not required). **Versions below 2022 will NOT work**
+
+If you know what you are doing, we also have instructions how to setup the server using Visual Studio CODE but it is NOT recommended for beginners.
+
+1. Download **Visual Studio 2022** Community Edition
+
+    - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (RECOMMENDED)
     - [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=vscom_downloads)
-    - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 
-2. .NET 6.0 SDK If you don't know what Arm64, x64, and x86 mean then google it, but you're probably x64.
+    In case you prefer a Visual Studio alternative, you can use Rider. **Rider is paid but free for students.** The largest difference between Rider and Visual Studio will be, perhaps, different namings for the menu options, but you should be able to follow along the Visual Studio Setup analogously.
+
+    - [Rider](https://www.jetbrains.com/rider/)
+
+2. .NET 6.0 SDK for your platform. If you are using Windows 64 bit, download Windows x64. **If using Visual Studio 2022, you can skip this.**
 
     - [Dotnet 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
 

@@ -1,12 +1,21 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Web Server
 
-You don't need to have the web server running to be able to play, but any UGC content (Profile pictures, items, cubes) won't load.
+You don't need to have the web server running to be able to play, but any UGC content (Profile pictures, items, cubes) will not work.
 
-## Starting the web server
+## Starting the Web Server
+
+### Visual Studio 2022 (Recommended)
+
+1. Right-Click the MapleServer2 solution and go to properties.
+
+2. In `Common Properties` and `Startup Project`
+
+3. Select `Multiple startup projects:` and select **Start** for `MapleServer2` and `MapleWebServer`
+
 
 ### Visual Studio Code and CLI
 
