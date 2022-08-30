@@ -28,7 +28,7 @@ dotnet run --project GameDataParser/GameDataParser.csproj
 
 ### Lua Setup for Visual Studio Code (Optional)
 
-Can be skipped if you are using Visual Studio 2022 Install the [Lua formatter extension](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format&ssr=false#overview). Then, inside `settings.json` for your Visual Studio Code `(CTRL + SHIFT + P -> type: 'settings (json)')`, add the following:
+Can be skipped if you are using Visual Studio 2022. Install the [Lua formatter extension](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format&ssr=false#overview). Then, inside `settings.json` for your Visual Studio Code `(CTRL + SHIFT + P -> type: 'settings (json)')`, add the following:
 
 ```json
 "editor.formatOnSave": true,
