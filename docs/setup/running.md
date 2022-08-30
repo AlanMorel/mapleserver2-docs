@@ -6,7 +6,7 @@ sidebar_position: 6
 
 ## Visual Studio 2022 (Recommended)
 
-1. Click RUN or use the shortcut (F5). This will start your server.
+1. Make sure **MapleServer2** is selected in the dropdown box next to **Green play button**. Click **RUN** or use the shortcut (F5). This will start your server.
 2. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
 
 ## Visual Studio Code
@@ -61,7 +61,7 @@ sidebar_position: 6
     }
     ```
 
-4. Run again and it should start the server with debugger.
+4. Run again and it should start the server with debugging enabled.
 
 5. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.
 
@@ -71,8 +71,8 @@ sidebar_position: 6
 
 2. Run
 
-```sh
-dotnet run --project MapleServer2/MapleServer2.csproj
-```
+    ```sh
+    dotnet run --project MapleServer2/MapleServer2.csproj
+    ```
 
 3. You can now proceed with the Web Server part of the docs or skip directly to Connecting to the Server if you do not want to enable UGC content.

@@ -6,9 +6,9 @@ sidebar_position: 3
 
 ## Visual Studio 2022 (Recommended)
 
-1. Open the `MapleServer2` solution in Visual Studio.
+1. Open the `MapleServer2` solution by double-clicking `MapleServer2.sln`.
 
-2. Right click on the `GameDataParser` project folder and select `Set as Startup Project`. Then run the project (F5).
+2. Inside VS2022, right click on the `GameDataParser` project folder and select `Set as Startup Project`. Then run the project (F5).
 
 3. After it is finished set the startup project back to `MapleServer2`.
 
@@ -26,10 +26,9 @@ sidebar_position: 3
 dotnet run --project GameDataParser/GameDataParser.csproj
 ```
 
-### Lua Setup for Visual Studio Code
+### Lua Setup for Visual Studio Code (Optional)
 
-Can be skipped if you are using Visual Studio 2022
-Install the [Lua formatter extension](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format&ssr=false#overview). Then, inside `settings.json` for your Visual Studio Code `(CTRL + SHIFT + P -> type: 'settings (json)')`, add the following:
+Can be skipped if you are using Visual Studio 2022 Install the [Lua formatter extension](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format&ssr=false#overview). Then, inside `settings.json` for your Visual Studio Code `(CTRL + SHIFT + P -> type: 'settings (json)')`, add the following:
 
 ```json
 "editor.formatOnSave": true,
@@ -40,7 +39,6 @@ Install the [Lua formatter extension](https://marketplace.visualstudio.com/items
 ```
 
 This enables the formatter on Lua files and formats them when you save them. It will load the `.luaFormatConfig` file from the project's root directory.
-
 
 ## CLI Setup
 
