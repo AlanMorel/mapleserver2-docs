@@ -16,6 +16,8 @@ sidebar_position: 4
 
 4. Keep clicking next and finish the setup.
 
+![Mysql Installation](../../static/gif/Mysql_Instalation.gif)
+
 ### Docker
 
 Alternatively, you can run your MySQL server inside a Docker container.
@@ -74,6 +76,8 @@ A tested and recommended tool is [DBeaver](https://dbeaver.io/download/).
 1. Open DBeaver, click on the 'New Database Connection' icon on the top left.
 2. Select MySQL and click next.
 3. Add the database (Maple2DB), username and password then click finish.
+   
+![DBeaver](../../static/gif/DBeaver_AddDB.gif)
 
 #### Visual Studio Code
 
