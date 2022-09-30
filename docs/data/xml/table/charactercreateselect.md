@@ -7,40 +7,23 @@ sidebar_position: 4
 This determines to the client what classes are able to be selected and displayed upon character creation screen.
 ![image](https://i.imgur.com/36RJcM5.png)
 
-## Group Name
-### Data
+## Group Name - Data
 
-### List
+Each list here determines the data to show of a specific job.
 
-| element |                                                                                                           |
+| element | explanation                                                                                               |
 |---------|-----------------------------------------------------------------------------------------------------------|
 | jobCode | job ID                                                                                                    |
-| movie   | Path of the movie that previews the class (4)                                                             |
-| descKey | Description of the job displayed (3). The key points to the id in /string/stringcharactercreateselect.xml |
+| movie   | Path of the movie that previews the class (**4**).                                                             |
+| descKey | Description of the job displayed (**3**). The key points to the id in /string/stringcharactercreateselect.xml |
 
-1. Navigate to the `MapleServer2` solution folder and make a copy of `.env.example` and rename the copy to `.env`.
+## Group Name - Display
 
-2. You must have a compatible database installed. When you install the database you'll be prompted to create a username and password which will be used in this step. All other settings in the install can be left as default or changed if you know what you're doing.
+Each list here determines how the data is laid out for the user.
 
-3. Then edit the values in your newly created `.env` file to match your environment, the default values are:
-
-```
-# Database Info
-DB_IP=localhost
-DB_PORT=3306
-DB_NAME=Maple2DB
-DB_USER=root
-DB_PASSWORD=root
-
-# Server Info
-IP=127.0.0.1
-GAME_PORT=21001
-LOGIN_PORT=20001
-NAME=Paperwood
-```
-
-## Optional
-
-1. Download a compatible database GUI tool. A tested and recommended tool is [DBeaver](https://dbeaver.io/download/). This is so you can visualize the data in the database.
-
-2. Add a connection to the chosen compatible SQL database previously installed, in `DBeaver` this can be done by clicking the far left icon in the toolbar.
+| element | explanation |
+|---------|-------------|
+|order    | jobCodes listed, comma separated in a specific order to display (**1**).|
+|disableJobCode| Still allows to display the job to the user but unable to be created. The job selection button becomes grayed out.|
+|selectJobCode | The default job once the user opens up the character selection screen. Often used to promote a new class (**2**).|
+|randomSelectJobCode| A comma separated list to pick one of the random jobs within the list as the highlighted class.|
