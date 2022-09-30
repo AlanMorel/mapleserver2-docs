@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Determines the possible beginner items a player can select from upon character creation.
 
-This is broken down by key (jobCode) -> slot name ([the abbreviated equipment code](/data/xml/commonkeywords))
+This is broken down by key (jobCode) -> ([slot name](/data/xml/commonkeywords#Equipments))
 
 |element|explanation|
 |-|-|

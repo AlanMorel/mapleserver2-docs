@@ -4,8 +4,9 @@ sidebar_position: 4
 
 # charactercreateselect.xml
 
+![image](../../../../src/imgs/xml/charactercreateselect.png)
+
 This determines to the client what classes are able to be selected and displayed upon character creation screen.
-![image](https://i.imgur.com/36RJcM5.png)
 
 ## Group Name - Data
 
