@@ -11,11 +11,11 @@ cd mapleserver2-docs
 ```
 
 ```sh
-npm install yarn -g
+npm install pnpm -g
 ```
 
 ```sh
-yarn install
+pnpm install
 ```
 
 Create a `.env` file
@@ -28,10 +28,10 @@ URL=http://maplememe.localhost/docs
 TZ=America/New_York
 ```
 
-Start the server using `yarn`
+Start the server using `pnpm`
 
 ```sh
-yarn start
+pnpm start
 ```
 
 Visit `http://localhost:8084/docs` to see the app running.
