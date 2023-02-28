@@ -34,4 +34,8 @@ sidebar_position: 6
 
 ## MapleStory 2 with latest Orion2 dll injected
 
-<https://drive.google.com/file/d/1NxSNP7AB-BgPlYavXPAuTi1ay2TR0uwV/view>
+Google Drive: <https://drive.google.com/file/d/1NxSNP7AB-BgPlYavXPAuTi1ay2TR0uwV/view>
+
+Mega: <https://mega.nz/file/IKtRURgA#fwQvteamrhm0825SRhqdsPY_gunufECdqANk1XBwmPQ>
+
+Self-hosted: <https://tadeucci.dev/MapleStory2Client.zip>
