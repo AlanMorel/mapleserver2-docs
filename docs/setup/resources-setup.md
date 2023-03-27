@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Resources Setup
 
-1. Download the MapleStory2 client with Orion2 already injected [here](https://drive.google.com/file/d/1NxSNP7AB-BgPlYavXPAuTi1ay2TR0uwV/view), if not already downloaded.
+1. Download the MapleStory2 client with Orion2 already injected [here](/docs/setup/prerequisites), if not already downloaded.
 
 2. Download the MapleServer2 [github repository](https://github.com/AlanMorel/MapleServer2). It is highly recommended to clone or fork the repository: If you do so, you can update to the latest Server changes using GitHub Desktop and even contribute your code changes easily.
 
