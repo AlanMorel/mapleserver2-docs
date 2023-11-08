@@ -8,13 +8,9 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-            target: base
-            args:
-                ENV: ${NODE_ENV}
+            target: app
         volumes:
             - ./logs:/var/log/nginx
-        environment:
-            DOCKER: "true"
         expose:
             - "${PORT}"
         networks:
