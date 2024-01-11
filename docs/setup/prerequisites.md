@@ -34,8 +34,6 @@ If you know what you are doing, we also have instructions how to setup the serve
 
 5. MapleStory2 client with Orion2 already injected.
 
-    - Google Drive: <https://drive.google.com/file/d/1NxSNP7AB-BgPlYavXPAuTi1ay2TR0uwV/view>
-
-    - Mega: <https://mega.nz/file/IKtRURgA#fwQvteamrhm0825SRhqdsPY_gunufECdqANk1XBwmPQ>
-
-    - Self-hosted: <https://tadeucci.dev/MapleStory2Client.zip>
+    - [Google Drive](https://drive.google.com/file/d/1NxSNP7AB-BgPlYavXPAuTi1ay2TR0uwV/view)
+    - [Mega](https://mega.nz/file/IKtRURgA#fwQvteamrhm0825SRhqdsPY_gunufECdqANk1XBwmPQ)
+    - [Self-hosted](https://tadeucci.dev/MapleStory2Client.zip)
