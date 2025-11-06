@@ -8,6 +8,7 @@ node_modules
 Dockerfile
 docker-compose.yml
 README.md
+logs
 
 # app-specific
 .docusaurus
